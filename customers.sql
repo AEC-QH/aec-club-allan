@@ -17,3 +17,5 @@ LEFT OUTER JOIN customer_orders
              ON customers.id = customer_orders.customer_id
 ORDER BY customer_orders.first_order_at
 LIMIT 5;
+
+
